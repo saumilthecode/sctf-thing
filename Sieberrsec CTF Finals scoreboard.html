@@ -4,7 +4,7 @@
   <title>Sieberrsec CTF Finals</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="https://finals.sieberr.live/files/d01b20d5b9c410094a21d568864a9f03/favicon-32x32.png" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
 
   
 
@@ -193,7 +193,11 @@
   
 </div>
 
-    <div id="score-graph" class="align-items-center d-flex" :class="{&#39;d-flex&#39;: show, &#39;d-none&#39;: !show}" x-data="ScoreboardDetail" x-ref="scoregraph" style="user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;" _echarts_instance_="ec_1753146038229"><div style="position: relative; width: 1296px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="2592" height="800" style="position: absolute; left: 0px; top: 0px; width: 1296px; height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div class=""></div></div>
+    <div id="score-graph" class="align-items-center d-flex" :class="{'d-flex': show, 'd-none': !show}" x-data="ScoreboardDetail" x-ref="scoregraph" style="user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;" _echarts_instance_="ec_1753146038229"><div style="position: relative; width: 1296px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="2592" height="800" style="position: absolute; left: 0px; top: 0px; width: 1296px; height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div class=""></div></div>
+    <div style="text-align:center; margin: 1.5rem 0;">
+      <img src="finals Top 10 Teams.png" alt="Finals Top 10 Teams Graph" style="max-width:100%; height:auto; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 8px #0001;">
+      <div style="color:#666; font-size:0.95em; margin-top:0.5em;">(Graph not loading? See the static scoreboard image above.)</div>
+    </div>
 
     <div id="scoreboard" class="row" x-data="ScoreboardList">
       <template x-if="brackets.length &amp;&amp; standings.length"></template><div class="col-md-12 py-3">
