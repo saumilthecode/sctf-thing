@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://finals.sieberr.live/team -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.ll-nam{color:#2196f3}.ll-num{color:#ec407a}.ll-str{color:#43a047}.ll-rex{color:#ef6c00}.ll-pct{color:#666}.ll-key{color:#555;font-weight:bold}.ll-com{color:#aaa;font-style:italic}</style>
+  <title>Sieberrsec CTF Finals</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://finals.sieberr.live/files/d01b20d5b9c410094a21d568864a9f03/favicon-32x32.png" type="image/x-icon">
+
+  
+
+  
+    <link rel="stylesheet" href="./Sieberrsec CTF Finals team_files/main.3095e2ea.css">
+  
+
+  
+
+  <script type="text/javascript">
+      window.init = {
+          'urlRoot': "",
+          'csrfNonce': "23a6112637a24f02e3c6123e808d09b0902cce0b3e4b8e2820fb65d5c7fdc691",
+          'userMode': "teams",
+          'userId': 102,
+          'userName': "Saumil Anand",
+          'userEmail': "saumil707@gmail.com",
+          'teamId': 13, 
+          'teamName': "Bananna",
+          'start': 1752977100,
+          'end': 1753002000,
+          'themeSettings': null,
+          'eventSounds': [
+            "/themes/core/static/sounds/notification.webm",
+            "/themes/core/static/sounds/notification.mp3",
+          ],
+      }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Sieberrsec CTF Finals team_files/css2" rel="stylesheet">
+<style>
+  :not(i) {
+  	font-family: "Pixelify Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 500;
+  	font-style: normal;
+  }
+</style>
+
+<style id="theme-color">
+:root {--theme-color: #000d74;}
+.navbar{background-color: var(--theme-color) !important;}
+.jumbotron{background-color: var(--theme-color) !important;}
+</style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a href="https://finals.sieberr.live/" class="navbar-brand">
+      
+        <img class="img-responsive ctf_logo" src="./Sieberrsec CTF Finals team_files/IMG_0179.PNG" alt="Sieberrsec CTF Finals" height="25">
+      
+    </a>
+
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#base-navbars" aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="base-navbars">
+      <ul class="navbar-nav me-auto">
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://finals.sieberr.live/users">
+              Users
+            </a>
+          </li>
+
+          
+            <li class="nav-item">
+              <a class="nav-link" href="https://finals.sieberr.live/teams">
+                Teams
+              </a>
+            </li>
+          
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://finals.sieberr.live/scoreboard">
+              Scoreboard
+            </a>
+          </li>
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://finals.sieberr.live/challenges">
+            Challenges
+          </a>
+        </li>
+      </ul>
+
+      <hr class="d-sm-flex d-md-flex d-lg-none">
+
+      <ul class="navbar-nav ms-md-auto d-block d-sm-flex d-md-flex">
+        
+
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://finals.sieberr.live/notifications">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Notifications" data-bs-original-title="Notifications">
+                <i class="fas fa-bell d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                  <i class="fas fa-bell pe-1"></i>
+                  <span x-data="" x-show="$store.unread_count &gt; 0" x-text="$store.unread_count" class="badge rounded-pill bg-danger badge-notification" style="display: none;">0</span>
+                  Notifications
+              </span>
+            </a>
+          </li>
+
+          
+            <li class="nav-item">
+              <a class="nav-link" href="https://finals.sieberr.live/team">
+                <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Team" data-bs-original-title="Team">
+                  <i class="fas fa-users d-none d-md-inline d-lg-none"></i>
+                </span>
+                <span class="d-sm-inline d-md-none d-lg-inline">
+                  <i class="fas fa-users pe-1"></i>
+                  Team
+                </span>
+              </a>
+            </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://finals.sieberr.live/user">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Profile" data-bs-original-title="Profile">
+                <i class="fas fa-user-circle d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-user-circle pe-1"></i>
+                Profile
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://finals.sieberr.live/settings">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Settings" data-bs-original-title="Settings">
+                <i class="fas fa-cogs d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-cogs pe-1"></i>
+                Settings
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://finals.sieberr.live/logout">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Logout" data-bs-original-title="Logout">
+                <i class="fas fa-sign-out-alt d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-sign-out-alt pe-1"></i><span class="d-lg-none">
+                  Logout
+                </span>
+              </span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main role="main">
+  
+  <div id="team-edit-modal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-action text-center w-100">Edit Team</h2>
+          <button type="button" class="cursor-pointer btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+
+        <div class="modal-body clearfix" x-data="TeamEditModal">
+          
+            
+            <form id="team-info-form" method="POST" @submit.prevent="updateProfile()">
+
+              <div class="mb-2">
+                <b><label clas="mb-2" for="name">Team Name</label></b>
+                <input class="form-control" id="name" name="name" type="text" value="Bananna">
+                <small class="form-text text-muted">
+                  Your team's public name shown to other competitors
+                </small>
+              </div>
+
+              <div class="mb-2">
+                <b><label clas="mb-2" for="password">New Team Password</label></b>
+                <input class="form-control" id="password" name="password" type="password" value="">
+                <small class="form-text text-muted">
+                  Set a new team join password
+                </small>
+              </div>
+
+              <div class="mb-2">
+                <b><label clas="mb-2" for="confirm">Confirm Current Team Password</label></b>
+                <input class="form-control" id="confirm" name="confirm" type="password" value="">
+                <small class="form-text text-muted">
+                  Provide your current team password (or your password) to update your team's password
+                </small>
+              </div>
+
+              <div class="mb-2">
+                <b><label clas="mb-2" for="website">Website</label></b>
+                <input class="form-control" id="website" name="website" type="url" value="">
+                <small class="form-text text-muted">
+                  Your team's website publicly shown to other competitors
+                </small>
+              </div>
+
+              <div class="mb-2">
+                <b><label clas="mb-2" for="affiliation">Affiliation</label></b>
+                <input class="form-control" id="affiliation" name="affiliation" type="text" value="">
+                <small class="form-text text-muted">
+                  Your team's affiliation publicly shown to other competitors
+                </small>
+              </div>
+
+              <div class="mb-2">
+                <b><label clas="mb-2" for="country">Country</label></b>
+                <select class="form-select" id="country" name="country"><option value=""></option><option value="AF">Afghanistan</option><option value="AX">Åland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua &amp; Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AC">Ascension Island</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia &amp; Herzegovina</option><option value="BW">Botswana</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="IC">Canary Islands</option><option value="CV">Cape Verde</option><option value="BQ">Caribbean Netherlands</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="EA">Ceuta &amp; Melilla</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo - Brazzaville</option><option value="CD">Congo - Kinshasa</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="CI">Côte d’Ivoire</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Curaçao</option><option value="CY">Cyprus</option><option value="CZ">Czechia</option><option value="DK">Denmark</option><option value="DG">Diego Garcia</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="EZ">Eurozone</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HN">Honduras</option><option value="HK">Hong Kong SAR China</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="XK">Kosovo</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macau SAR China</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar (Burma)</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="KP">North Korea</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territories</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn Islands</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Réunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">São Tomé &amp; Príncipe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia &amp; South Sandwich Islands</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="BL">St. Barthélemy</option><option value="SH">St. Helena</option><option value="KN">St. Kitts &amp; Nevis</option><option value="LC">St. Lucia</option><option value="MF">St. Martin</option><option value="PM">St. Pierre &amp; Miquelon</option><option value="VC">St. Vincent &amp; Grenadines</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard &amp; Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad &amp; Tobago</option><option value="TA">Tristan da Cunha</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks &amp; Caicos Islands</option><option value="TV">Tuvalu</option><option value="UM">U.S. Outlying Islands</option><option value="VI">U.S. Virgin Islands</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican City</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis &amp; Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
+                <small class="form-text text-muted">
+                  Your team's country publicly shown to other competitors
+                </small>
+              </div>
+
+              <hr>
+
+              
+
+              <div id="results">
+                <div class="alert alert-success alert-dismissible submit-row" role="alert" x-show="success" style="display: none;">
+                  <strong>Success!</strong>
+                  Your team's profile has been updated
+                  <button type="button" class="cursor-pointer btn-close" data-bs-dismiss="alert" aria-label="Close">
+                  </button>
+                </div>
+
+                <template x-for="(msg, idx) in errors" :key="idx"></template>
+              </div>
+
+              <input class="btn btn-primary float-end px-4 modal-action" id="_submit" name="_submit" type="submit" value="Submit">
+            </form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="team-captain-modal" x-data="TeamCaptainModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-action text-center w-100">Choose Captain</h2>
+          <button type="button" class="cursor-pointer btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body clearfix">
+          
+            <form id="team-captain-form" method="POST" @submit.prevent="updateCaptain()">
+              <div class="mb-3">
+                <label class="form-label" for="captain_id">Team Captain</label>
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                <select class="form-select mb-2" id="captain_id" name="captain_id" required=""><option selected="" value="102">Saumil Anand</option><option value="103">Daivik Rajesh</option><option value="104">Ethan Dalgado</option><option value="105">Zenneth Gaw Rui Heng</option></select>
+              </div>
+              <div id="results">
+                <div class="alert alert-success alert-dismissible submit-row" role="alert" x-show="success" style="display: none;">
+                  <strong>Success!</strong>
+                  Your captain rights have been transferred
+                  <button type="button" class="cursor-pointer btn-close" data-bs-dismiss="alert" aria-label="Close">
+                  </button>
+                </div>
+                <template x-for="(msg, idx) in errors" :key="idx"></template>
+              </div>
+              <input class="btn btn-primary float-end px-4 modal-action" id="_submit" name="_submit" type="submit" value="Submit">
+            </form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="team-invite-modal" x-data="TeamInviteModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-action text-center w-100">Invite Users</h2>
+          <button type="button" class="cursor-pointer btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body clearfix">
+          
+            <form method="POST">
+              <div class="mb-3">
+                <b><label class="form-label" for="link">Invite Link</label></b>
+
+                <div class="input-group mb-3">
+                  <input class="form-control" id="team-invite-link" name="link" type="url" value="" x-bind:value="$store.inviteToken" x-ref="link">
+
+                  <button class="btn btn-outline-secondary px-3" type="button" @click="copy()">
+                    <i class="fas fa-clipboard"></i>
+                  </button>
+                </div>
+
+                <small class="form-text text-muted">
+                  Share this link with your team members for them to join your team
+                </small>
+                <small class="form-text text-muted">
+                  Invite links can be re-used and expire after 1 day
+                </small>
+              </div>
+            </form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="team-disband-modal" x-data="TeamDisbandModal" class="modal fade">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-action text-center w-100">Disband Team</h2>
+          <button type="button" class="cursor-pointer btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="mb-0">Are you sure you want to disband your team?</p>
+
+          <div class="mt-3">
+            <template x-for="(msg, idx) in errors" :key="idx"></template>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
+          <button type="button" class="btn btn-primary" @click="disbandTeam()" :disabled="errors.length &gt; 0">Yes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 id="team-id" team-id="13">Bananna</h1>
+      
+
+      
+
+      
+
+      
+
+      <h2 id="team-place" class="text-center">
+        
+        
+        
+          
+            11th
+            <small>place</small>
+          
+        
+      </h2>
+
+      <h2 id="team-score" class="text-center">
+        
+          4040
+          <small>points</small>
+        
+      </h2>
+
+      <div x-data="CaptainMenu">
+        <a class="edit-team text-white" @click="editTeam()">
+          <i class="cursor-pointer fas fa-cogs fa-2x px-2 pt-3" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit Team" data-bs-original-title="Edit Team"></i>
+        </a>
+        <a class="edit-captain text-white" @click="chooseCaptain()">
+          <i class="cursor-pointer fas fa-user-tag fa-2x px-2 pt-3" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Choose Captain" data-bs-original-title="Choose Captain"></i>
+        </a>
+
+        <a class="invite-members text-white" @click="inviteMembers()">
+          <i class="cursor-pointer fas fa-ticket-alt fa-2x px-2 pt-3" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Invite Users" data-bs-original-title="Invite Users"></i>
+        </a>
+        <a class="disband-team text-white" @click="disbandTeam()">
+          <i class="cursor-pointer fas fa-trash-alt fa-2x px-2 pt-3" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Disband Team" data-bs-original-title="Disband Team"></i>
+        </a>
+      </div>
+
+      <div class="pt-3">
+        </div>
+      </div>
+
+  </div>
+
+  <div class="container">
+    <div>
+  
+
+  
+</div>
+
+    <br>
+
+    <div class="row min-vh-25">
+      <div class="col-md-12">
+        <h3>Members</h3>
+        <table class="table table-striped">
+          <thead>
+          <tr>
+            <td><b>User Name</b></td>
+            <td><b>Score</b></td>
+          </tr>
+          </thead>
+          <tbody>
+
+          
+            <tr>
+              <td>
+                <a href="https://finals.sieberr.live/users/102">
+                  Saumil Anand
+                </a>
+                
+                  <span class="badge bg-primary ms-2">Captain</span>
+                
+              </td>
+              <td>2296</td>
+            </tr>
+          
+            <tr>
+              <td>
+                <a href="https://finals.sieberr.live/users/103">
+                  Daivik Rajesh
+                </a>
+                
+              </td>
+              <td>324</td>
+            </tr>
+          
+            <tr>
+              <td>
+                <a href="https://finals.sieberr.live/users/104">
+                  Ethan Dalgado
+                </a>
+                
+              </td>
+              <td>0</td>
+            </tr>
+          
+            <tr>
+              <td>
+                <a href="https://finals.sieberr.live/users/105">
+                  Zenneth Gaw Rui Heng
+                </a>
+                
+              </td>
+              <td>1420</td>
+            </tr>
+          
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    
+      
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Solves</h3>
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <td><b>Challenge</b></td>
+              <td class="d-none d-md-block d-lg-block"><b>Category</b></td>
+              <td><b>Value</b></td>
+              <td><b>Time</b></td>
+            </tr>
+            </thead>
+            <tbody>
+
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#CTF%20Versus%20Cup%202-18">
+                    CTF Versus Cup 2
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Web</td>
+                <td>1000</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-22T00:48:04.161085Z">July 22nd, 8:48:04 AM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#CTF%20Versus%20Cup%201-17">
+                    CTF Versus Cup 1
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Web</td>
+                <td>996</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T05:32:05.143252Z">July 20th, 1:32:05 PM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#h2math-32">
+                    h2math
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Crypto</td>
+                <td>424</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T04:36:02.929557Z">July 20th, 12:36:02 PM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#furryCTF-46">
+                    furryCTF
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Misc</td>
+                <td>324</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T02:45:55.576159Z">July 20th, 10:45:55 AM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#eight%20ways%20to%20leak%20a%20flag-7">
+                    eight ways to leak a flag
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Crypto</td>
+                <td>324</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T02:32:06.133027Z">July 20th, 10:32:06 AM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#sanity%20check-26">
+                    sanity check
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Misc</td>
+                <td>216</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T02:19:05.978181Z">July 20th, 10:19:05 AM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#Here%20There%20Everywhere-39">
+                    Here There Everywhere
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Misc</td>
+                <td>216</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T02:14:19.276754Z">July 20th, 10:14:19 AM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#baby%20you%20light%20up%20my%20world-41">
+                    baby you light up my world
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Misc</td>
+                <td>216</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T02:14:06.676971Z">July 20th, 10:14:06 AM</span>
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                  <a href="https://finals.sieberr.live/challenges#touch%20grass-40">
+                    touch grass
+                  </a>
+                </td>
+                <td class="d-none d-md-block d-lg-block">Misc</td>
+                <td>324</td>
+                <td class="solve-time">
+                  <span data-time="2025-07-20T02:10:06.975365Z">July 20th, 10:10:06 AM</span>
+                </td>
+              </tr>
+            
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="row" x-data="TeamGraphs">
+        <div class="col-md-6 d-none d-md-block d-lg-block py-4">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" :style="{ width: `${getSolvePercentage()}%`, &#39;background-color&#39;: &#39;rgb(0, 209, 64)&#39; }" style="width: 14.52%; background-color: rgb(0, 209, 64);">
+            </div>
+            <div class="progress-bar" role="progressbar" :style="{ width: `${getFailPercentage()}%`, &#39;background-color&#39;: &#39;rgb(207, 38, 0)&#39; }" style="width: 85.48%; background-color: rgb(207, 38, 0);">
+            </div>
+          </div>
+          <div class="ps-2 float-start">
+            <svg height="16" width="16">
+              <circle cx="8" cy="8" r="5" fill="rgb(0, 209, 64)"></circle>
+            </svg>
+            <small x-text="`Solves (${getSolvePercentage()}%)`">Solves (14.52%)</small>
+          </div>
+          <div class="ps-2 float-start">
+            <svg height="16" width="16">
+              <circle cx="8" cy="8" r="5" fill="rgb(207, 38, 0)"></circle>
+            </svg>
+            <small x-text="`Fails (${getFailPercentage()}%)`">Fails (85.48%)</small>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-md-block d-lg-block py-4">
+          <div class="progress">
+            <template x-for="category in getCategoryBreakdown()" :key="category.name"></template><div class="progress-bar" role="progressbar" :style="{ width: `${category.percent}%`, &#39;background-color&#39;: category.color }" style="width: 22.2222%; background-color: rgb(188, 239, 46);">
+              </div><div class="progress-bar" role="progressbar" :style="{ width: `${category.percent}%`, &#39;background-color&#39;: category.color }" style="width: 22.2222%; background-color: rgb(138, 15, 194);">
+              </div><div class="progress-bar" role="progressbar" :style="{ width: `${category.percent}%`, &#39;background-color&#39;: category.color }" style="width: 55.5556%; background-color: rgb(58, 228, 160);">
+              </div>
+          </div>
+          <template x-for="category in getCategoryBreakdown()" :key="category.name"></template><div class="ps-2 float-start">
+              <svg height="16" width="16">
+                <circle cx="8" cy="8" r="5" :fill="category.color" fill="hsl(76, 86%, 56%)"></circle>
+              </svg>
+              <small x-text="`${category.name} (${category.percent}%)`">Web (22.22222222222222%)</small>
+            </div><div class="ps-2 float-start">
+              <svg height="16" width="16">
+                <circle cx="8" cy="8" r="5" :fill="category.color" fill="hsl(281, 86%, 41%)"></circle>
+              </svg>
+              <small x-text="`${category.name} (${category.percent}%)`">Crypto (22.22222222222222%)</small>
+            </div><div class="ps-2 float-start">
+              <svg height="16" width="16">
+                <circle cx="8" cy="8" r="5" :fill="category.color" fill="hsl(156, 76%, 56%)"></circle>
+              </svg>
+              <small x-text="`${category.name} (${category.percent}%)`">Misc (55.55555555555556%)</small>
+            </div>
+        </div>
+
+        <br class="clearfix">
+
+        <div class="col-md-12 d-none d-md-block d-lg-block">
+          <div id="score-graph" x-ref="scoregraph" class="w-100 d-flex align-items-center" style="user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;" _echarts_instance_="ec_1753146045689"><div style="position: relative; width: 1296px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="2332" height="719" style="position: absolute; left: 0px; top: 0px; width: 1296px; height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div class=""></div></div>
+        </div>
+      </div>
+    
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="container text-center">
+    <a href="https://ctfd.io/" class="text-secondary">
+      <small class="text-muted">
+        Powered by CTFd
+      </small>
+    </a>
+  </div>
+</footer>
+
+<div x-data="">
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div x-ref="toast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto" x-text="$store.toast.title"></strong>
+        <small>just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body" x-html="$store.toast.html"></div>
+    </div>
+  </div>
+</div>
+
+
+<div x-data="">
+  <div class="modal fade" x-ref="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" x-text="$store.modal.title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p x-html="$store.modal.html"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script>
+      window.stats_data = {"account_id": "me", "id": 13, "name": "Bananna", "type": "team"};
+
+      window.team_captain = true;
+  </script>
+  <script defer="" type="module" src="./Sieberrsec CTF Finals team_files/index.de5afc43.js"></script><script defer="" type="module" src="./Sieberrsec CTF Finals team_files/clipboard.7bfdd003.js"></script><script defer="" type="module" src="./Sieberrsec CTF Finals team_files/userscore.24732dff.js"></script><script defer="" type="module" src="./Sieberrsec CTF Finals team_files/index.77259a29.js"></script><script defer="" type="module" src="./Sieberrsec CTF Finals team_files/echarts.128204f2.js"></script><script defer="" type="module" src="./Sieberrsec CTF Finals team_files/teams_private.dfa85c8d.js"></script>
+
+
+
+
+
+
+<div id="give-freely-root-ejkiikneibegknkgimmihdpcbcedgmpo" class="give-freely-root" data-extension-id="ejkiikneibegknkgimmihdpcbcedgmpo" data-extension-name="Volume Booster" style="display: block;"><template shadowrootmode="open"><style>
+  :host {
+    all: initial;
+  }
+
+  .gf-scroll-remove::-webkit-scrollbar {
+    border-radius-bottom-right: 15px;
+  }
+
+  button {
+    cursor: pointer;
+    transition: transform 0.1s ease;
+  }
+
+  button:active {
+    transform: scale(0.98);
+  }
+
+  .give-freely-close-button:hover {
+    opacity: 0.7;
+  }
+
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 1em 0;
+  }
+
+  @media (max-width: 600px), (max-height: 480px) {
+    #give-freely-checkout-popup {
+      display: none !important;
+    }
+  }
+</style><div><div class="gf-app"></div></div></template></div></body></html>
